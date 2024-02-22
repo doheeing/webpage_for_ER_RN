@@ -1,21 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SNUBH ER RN</title>
-    <h1><a href="index.html">SNUBH ER RN</a></h1>
+    <style>
+        @font-face {
+            font-family: "LeeSeoyun";
+            src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff")
+              format("woff");
+            font-weight: normal;
+            font-style: normal;
+        }
+        a{
+            text-decoration-line: none;
+            color: black;
+
+        }
+        body{
+            background-color: skyblue;
+            font-family: "LeeSeoyun";
+            text-align: center;
+        }
+        h1{
+            font-size: 60px;
+
+        }
+        .manu{
+            margin: 2px;
+            border-bottom: 2px solid black;
+
+        }
+        img{
+            margin-top: 50px;
+        }
+        h2{
+            text-align: center;
+            border-bottom: 2px solid black;
+            padding-bottom: 20px;
+        }
+        #contents{
+            background-color: aliceblue;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            text-align: left;
+            padding: 20px 12px;
+            border: 1px solid black;
+        }
+        .text{
+
+        }
+    </style>
 </head>
 <body>
-    <ol>
-        <li><a href="공지사항.html">공지사항</li></a>
-        <li>근무스케줄</li>
-        <li>결재관련</li>
-        <li>복지</li>
-        <li>구역정리</li>
-        <li>소통게시판</li>
-    </ol>
-    <h1>공지사항</h1>
-    <h2>2월 공지사항</h2>
-    <p>1. 25세이상 자녀 및 조부모/외조부모의 경우 병원 직원의 건강보 험에 등재가 되어 있는 경우에 한하여 진료비 감면이 가능함</p><p>2. 24년도 부서자율과제 상반기 20개, 하반기 15개로 총 35개 모집 예정임</p><p>3. 스누비안 주말농장 신청 접수가 2.5~2.12일 진행되었음</p><p>4. 교직원초등자녀 입학선물 지급 및 명절 지원비 지급됨</p><p>5. 4월중 노사화합 워크샵이 개최될 예정임</p><p>6. LA 한국형 건강검진센터 프로젝트 진행중이며, 추후 교직원파견 이 가능할 수도 있음</p><p>7. 3개병원 합동월례회의2월16일 개최 정임</p><p>8. 2월 경영설명회 개최에 따라 스누비안 한마음회의는 미개최됨</p><p>9. 교직원이 환자정보나 업무용 무료주차권을 이용하여 주차하는 사례가 적발됨에 따라 모니터링되고 있음을 공지바람</p><p>10. 단기 기개발휴직시 교대근무중 통상근무로 이동시 이후 교대 근무복귀시점부터 가산되므로 상근지 헬퍼 파견시 연속 근무기간에서 제외됨 </p><p>11. 3년도 신규 총 21명(신검 최종 명수 수정가능) 5월1일 발령 이후 24년도 신규는 4월1일 인턴시작하여 분기별 인턴 발령예정임(1.4.7.10)</p><p>12. 외부교육지원금 예산관리 각 팀에 행정간호사가 외부교육지원 명단관리, 서류제출 확인하여 월별 취합자료 간호교육파트로 전달 하기로 함</p>
-
+        <h1><a href="index.html">SNUBH ER RN</a></h1>
+        <ol>
+            <span id="list1" class="manu"><a href="공지사항.html">공지사항</a></span>
+            <span id="list2" class="manu"><a href="근무스케줄.html">근무스케줄</a></span>
+            <span id="list3" class="manu">결재관련</span>
+            <span id="list4" class="manu">복지</span>
+            <span id="list5" class="manu">구역정리</span>
+            <span id="list6" class="manu">소통게시판</span>
+        </ol>
+        <div id="contents">
+            <h2>공지사항</h1>
+            <h3>2월 공지사항</h2>
+                <div id="text"></div>
+                    <p>1. 25세이상 자녀 및 조부모/외조부모의 경우 병원 직원의 건강보 험에 등재가 되어 있는 경우에 한하여 진료비 감면이 가능함</p><p>2. 24년도 부서자율과제 상반기 20개, 하반기 15개로 총 35개 모집 예정임</p><p>3. 스누비안 주말농장 신청 접수가 2.5~2.12일 진행되었음</p><p>4. 교직원초등자녀 입학선물 지급 및 명절 지원비 지급됨</p><p>5. 4월중 노사화합 워크샵이 개최될 예정임</p><p>6. LA 한국형 건강검진센터 프로젝트 진행중이며, 추후 교직원파견 이 가능할 수도 있음</p><p>7. 3개병원 합동월례회의2월16일 개최 정임</p><p>8. 2월 경영설명회 개최에 따라 스누비안 한마음회의는 미개최됨</p><p>9. 교직원이 환자정보나 업무용 무료주차권을 이용하여 주차하는 사례가 적발됨에 따라 모니터링되고 있음을 공지바람</p><p>10. 단기 기개발휴직시 교대근무중 통상근무로 이동시 이후 교대 근무복귀시점부터 가산되므로 상근지 헬퍼 파견시 연속 근무기간에서 제외됨 </p><p>11. 3년도 신규 총 21명(신검 최종 명수 수정가능) 5월1일 발령 이후 24년도 신규는 4월1일 인턴시작하여 분기별 인턴 발령예정임(1.4.7.10)</p><p>12. 외부교육지원금 예산관리 각 팀에 행정간호사가 외부교육지원 명단관리, 서류제출 확인하여 월별 취합자료 간호교육파트로 전달 하기로 함</p>
+                </div>
+        </div>
 
 </body>
